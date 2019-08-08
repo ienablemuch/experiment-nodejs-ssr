@@ -1,4 +1,4 @@
-export const html = ({body}: {body: string}) => `
+export const html = ({ body }: { body: string }) => `
     <!DOCTYPE tml>
     <html>
         <head>
@@ -9,4 +9,3 @@ export const html = ({body}: {body: string}) => `
         <script src="js/client.js" defer></script>
     </html>
 `;
-
